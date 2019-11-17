@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".GeneralStudies2">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GS2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="141dp" />
 </android.support.constraint.ConstraintLayout>
