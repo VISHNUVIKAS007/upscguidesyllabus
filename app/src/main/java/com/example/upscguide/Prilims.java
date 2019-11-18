@@ -5,12 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Prilims extends AppCompatActivity {
 
 
-    Button mGeneralStudies;
-    Button mAptitudeTest;
+    private Button mGeneralStudies;
+    private Button mAptitudeTest;
+    private TextView mNotes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class Prilims extends AppCompatActivity {
 
         mGeneralStudies=findViewById(R.id.generalStudies);
         mAptitudeTest=findViewById(R.id.aptitudeTest);
+        mNotes=findViewById(R.id.notes);
 
         mGeneralStudies.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,5 +38,7 @@ public class Prilims extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        mNotes.setText(getResources().getString(R.string.notes));
     }
 }
