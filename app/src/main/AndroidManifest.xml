@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.upscguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Zoology"></activity>
+        <activity android:name=".Statistics" />
+        <activity android:name=".Sociology" />
+        <activity android:name=".PublicAdmistration" />
+        <activity android:name=".Psycology" />
+        <activity android:name=".PoliticalScience" />
+        <activity android:name=".Physics" />
+        <activity android:name=".Philosophy" />
+        <activity android:name=".Law" />
+        <activity android:name=".MedicalScience" />
+        <activity android:name=".MechanicalEngineering" />
+        <activity android:name=".Mathamatics" />
+        <activity android:name=".Management" />
+        <activity android:name=".History" />
+        <activity android:name=".Geology" />
+        <activity android:name=".Geography" />
+        <activity android:name=".English" />
+        <activity android:name=".ElectricalEngineering" />
+        <activity android:name=".Economics" />
+        <activity android:name=".Commerce" />
+        <activity android:name=".CivilEngineering" />
+        <activity android:name=".Chemistry" />
+        <activity android:name=".Botany" />
+        <activity android:name=".Anthropology" />
+        <activity android:name=".AnimalHusbendry" />
+        <activity android:name=".Agriculture" />
+        <activity android:name=".GeneralStudies4" />
+        <activity android:name=".GeneralStudies3" />
+        <activity android:name=".GeneralStudies2" />
+        <activity android:name=".GeneralStudies1" />
+        <activity android:name=".AptitudeTest" />
+        <activity android:name=".GeneralStudies" />
+        <activity android:name=".Services" />
+        <activity android:name=".Eligibility" />
+        <activity android:name=".Schemes" />
+        <activity
+            android:name=".Optional"
+            android:label="OPTIONAL" />
+        <activity
+            android:name=".Mains"
+            android:label="MAINS" />
+        <activity
+            android:name=".Prilims"
+            android:label="PRELIMS" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="ABOUT" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
