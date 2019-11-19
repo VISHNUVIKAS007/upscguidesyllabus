@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
         <Button
             android:id="@+id/gs1"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
@@ -20,12 +20,12 @@
             android:text="GENERAL STUDIES 1"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             />
         <Button
             android:id="@+id/gs2"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -35,12 +35,12 @@
             android:text="General Studies 2"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             />
         <Button
             android:id="@+id/gs3"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -50,12 +50,12 @@
             android:text="General Studies 3"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             />
         <Button
             android:id="@+id/gs4"
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
@@ -65,7 +65,7 @@
             android:text="General Studies 4"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             />
 

@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
 
 
     <RelativeLayout
@@ -13,11 +21,12 @@
 
         <ImageView
             android:id="@+id/image"
+            android:padding="10dp"
             android:layout_width="wrap_content"
             android:layout_height="180dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/home"
+            android:background="@drawable/home2"
 
 
             android:contentDescription="hello"
@@ -27,7 +36,7 @@
 
         <Button
             android:id="@+id/aboutTheExam"
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/image"
             android:layout_centerHorizontal="true"
@@ -43,7 +52,7 @@
 
         <Button
             android:id="@+id/prilims"
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/aboutTheExam"
             android:layout_centerHorizontal="true"
@@ -59,7 +68,7 @@
 
         <Button
             android:id="@+id/mains"
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/prilims"
             android:layout_centerHorizontal="true"
@@ -75,7 +84,7 @@
 
         <Button
             android:id="@+id/optional"
-            android:layout_width="200dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/mains"
             android:layout_centerHorizontal="true"
@@ -89,7 +98,6 @@
             android:textStyle="bold" />
 
 
-
-
     </RelativeLayout>
-</android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

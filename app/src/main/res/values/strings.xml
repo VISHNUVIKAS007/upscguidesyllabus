@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <string name="app_name">UPSC SYLLABUS</string>
     //prelims
     <string name="notes">
@@ -87,7 +88,7 @@ Optional Subject – Paper 2\n\n
 
     </string>
 
-//Eligibility
+    //Eligibility
 
     <string name="EligibilityHeading">Eligibility Criteria</string>
     <string name="EligibilityDetails">
@@ -3706,9 +3707,9 @@ b) Glycolysis and Kreb cycle, oxidation and reduction, oxidative phosphorylation
 (e)   Biogenetic law.\n\n
 
     </string>
-
-
-
-
+    //about app
+    <string name="appAboutHeader">App About</string>
+    //privacyPolicy
+    <string name="privacy">Privacy</string>
 
 </resources>
