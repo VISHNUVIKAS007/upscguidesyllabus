@@ -18,6 +18,6 @@ public class Anthropology extends AppCompatActivity {
         mAnthroDetail=findViewById(R.id.anthropologyDetails);
 
         mAnthroHeader.setText(getResources().getString(R.string.anthropologyHeader));
-        mAnthroDetail.setText(getResources().getString(R.string.animalDetails));
+        mAnthroDetail.setText(getResources().getString(R.string.anthropologyDetail));
     }
 }
