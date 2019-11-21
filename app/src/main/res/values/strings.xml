@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_name">UPSC SYLLABUS</string>
+    <string name="app_name">UPSC Syllabus</string>
+    <string name="app_boardname">UPSC Syllabus</string>
     //prelims
     <string name="notes">
         \nNote 1: The questions in both Paper-I (general studies) and Paper-II (aptitude test) will be of multiple choice, objective type for 200 marks each and the time allotted for each paper is two hours.\n
@@ -318,7 +319,7 @@ terrorism\n\n
 
     <string name="gs4Header">General studies IV</string>
     <string name="gs4Details">
-        \n \n General Studies 4 Paper Syllabus for UPSC Civil Services Mains Exam consists of the below major areas : \n\n Ethics, Integrity, and Aptitude. Details of syllabus as provided by UPSC is as below : This paper will include questions to test the candidates’ attitude and approach to issues relating to integrity, probity in public life and his problem solving approach to various issues and conflicts faced by him in dealing with society. Questions may utilise the case study approach to determine these aspects. The following broad areas will be covered:\n\n
+        \n \n General Studies 4 Paper Syllabus for UPSC Civil Services Mains Exam consists of the below major areas : \n\n Ethics, Integrity, and Aptitude. Details of syllabus as provided by UPSC is as below :\n\n This paper will include questions to test the candidates’ attitude and approach to issues relating to integrity, probity in public life and his problem solving approach to various issues and conflicts faced by him in dealing with society. Questions may utilise the case study approach to determine these aspects. The following broad areas will be covered:\n\n
        • Ethics and Human Interface: Essence, determinants and consequences of Ethics in human actions;
 dimensions of ethics; ethics in private and public relationships. Human Values – lessons from the
 lives and teachings of great leaders, reformers and administrators; role of family, society and
@@ -3708,12 +3709,13 @@ b) Glycolysis and Kreb cycle, oxidation and reduction, oxidative phosphorylation
 
     </string>
     //about app
-    <string name="appAboutHeader">App About</string>
+    <string name="appAboutHeader">Application About</string>
     <string name="appAboutDetails">
-        
+        \n\nThis Application is created and curated by OldMonk Creations.\n\n
+        Feel free to write to us about the application at\n oldmonkcreation@gmail.com\n\n
     </string>
     //privacyPolicy
-    <string name="privacy">Privacy</string>
+    <string name="privacy">Privacy Policy</string>
     <string name="privacyDetails">
 
 Old Monk Creations built the UPSC SYLLABUS app as an Ad Supported app. This SERVICE is provided by Old Monk Creations at no cost and is intended for use as is.\n\n

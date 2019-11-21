@@ -1,7 +1,10 @@
 package com.example.upscguide;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +14,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static int SPLASH_TIME_OUT = 2000;
 
     private Button mAbout;
     private  Button mPrilims;
@@ -23,10 +28,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
+
         mAbout=findViewById(R.id.aboutTheExam);
         mPrilims=findViewById(R.id.prilims);
         mMains=findViewById(R.id.mains);
         mOptional=findViewById(R.id.optional);
+
+
 
         mAbout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater =getMenuInflater();
@@ -79,6 +89,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this,AppAbout.class);
                 startActivity(intent2);
                 return  true;
+            /*case R.id.rateUs:
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id= "+getPackageName())));
+
+                }catch(ActivityNotFoundException e){
+                    startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("http://play.google.com/store/apps/details?id="+getPackageName())));
+                }
+                return  true;*/
         }
         return super.onOptionsItemSelected(item);
     }

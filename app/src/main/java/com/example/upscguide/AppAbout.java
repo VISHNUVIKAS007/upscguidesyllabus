@@ -15,10 +15,10 @@ public class AppAbout extends AppCompatActivity {
         setContentView(R.layout.activity_app_about);
 
 
-        mAppAbout=findViewById(R.id.appAboutScreen);
-        mAppAbout=findViewById(R.id.appAboutDetails);
+        //mAppAbout=findViewById(R.id.appAboutScreen);
+        mAppD=findViewById(R.id.appAboutDetails);
 
-        mAppAbout.setText(getResources().getString(R.string.appAboutHeader));
-        mAppAbout.setText(getResources().getString(R.string.appAboutDetails));
+        //mAppAbout.setText(getResources().getString(R.string.appAboutHeader));
+        mAppD.setText( getResources().getString(R.string.appAboutDetails));
     }
 }
